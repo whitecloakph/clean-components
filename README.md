@@ -24,7 +24,7 @@ MVRP Activity
 compile 'com.whitecloak.cleancomponents:mvrp-activity:0.6.0'
 ```
 
-# License
+## License
 
     Copyright 2018 White Cloak Technologies, Inc
 
