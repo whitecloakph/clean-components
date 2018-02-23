@@ -9,7 +9,7 @@ publish {
     uploadName = UPLOAD_NAME
     groupId = 'com.whitecloak.cleancomponents'
     artifactId = ARTIFACT_ID
-    publishVersion = '0.5.0'
+    publishVersion = '0.6.0'
 
     desc = 'A collection of libraries that help you implement clean architecture.'
     website = 'https://github.com/whitecloakph/cleancomponents'
