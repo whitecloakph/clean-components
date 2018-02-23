@@ -24,6 +24,6 @@ branches:
   except:
     - gh-pages
 
-script: ./gradlew build
+script: ./gradlew clean build
 
 after_success:
