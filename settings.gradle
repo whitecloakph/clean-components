@@ -1,1 +1,1 @@
-include ':app', ':mvp', ':mvrp', ':mvp-activity'
+include ':app', ':mvp', ':mvrp', ':mvp-activity', ':mvrp-activity'

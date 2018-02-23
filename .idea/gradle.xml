@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvp-activity" />
             <option value="$PROJECT_DIR$/mvrp" />
+            <option value="$PROJECT_DIR$/mvrp-activity" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
