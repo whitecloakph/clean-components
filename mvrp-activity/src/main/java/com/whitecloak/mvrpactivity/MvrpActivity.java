@@ -10,7 +10,7 @@ import com.whitecloak.cleancomponents.mvp.MvpView;
 import com.whitecloak.cleancomponents.mvrp.MvrpPresenter;
 import com.whitecloak.cleancomponents.mvrp.MvrpRouter;
 
-public abstract class AutoMvrpActivity<V extends MvpView, R extends MvrpRouter, P extends MvrpPresenter<V, R>> extends AppCompatActivity {
+public abstract class MvrpActivity<V extends MvpView, R extends MvrpRouter, P extends MvrpPresenter<V, R>> extends AppCompatActivity {
 
     private P mPresenter;
 

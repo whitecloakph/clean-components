@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.whitecloak.cleancomponents.mvp.MvpPresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;
 
-public abstract class AutoMvpActivity<V extends MvpView, P extends MvpPresenter<V>> extends AppCompatActivity {
+public abstract class MvpActivity<V extends MvpView, P extends MvpPresenter<V>> extends AppCompatActivity {
 
     private P mPresenter;
 
