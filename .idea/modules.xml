@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp-activity/mvp-activity.iml" filepath="$PROJECT_DIR$/mvp-activity/mvp-activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvrp/mvrp.iml" filepath="$PROJECT_DIR$/mvrp/mvrp.iml" />
       <module fileurl="file://$PROJECT_DIR$/wc-clean-components.iml" filepath="$PROJECT_DIR$/wc-clean-components.iml" />
     </modules>
