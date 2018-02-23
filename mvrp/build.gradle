@@ -17,5 +17,7 @@ android {
 }
 
 dependencies {
+    implementation project(':mvp')
+
     testImplementation 'junit:junit:4.12'
 }
