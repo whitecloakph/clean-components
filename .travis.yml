@@ -1,21 +1,29 @@
-language: java
+language: android
+android:
+  components:
+  - tools
+  - platform-tools
+  - build-tools-26.0.2
+  - extra-android-m2repository
+  - android-26
+  - sys-img-armeabi-v7a-android-17
 
 jdk:
   - oraclejdk8
 
-after_success:
-
-env:
-
-branches:
-  except:
-    - gh-pages
+licenses:
+- android-sdk-license-.+
+- android-sdk-license-c81a61d9
 
 notifications:
   email: false
 
 sudo: false
 
-cache:
-  directories:
-    - $HOME/.m2
+branches:
+  except:
+    - gh-pages
+
+script: ./gradlew build
+
+after_success:
