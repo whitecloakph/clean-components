@@ -1,9 +1,9 @@
 package com.whitecloak.cleancomponents.mvrp;
 
-import com.whitecloak.cleancomponents.mvp.BasePresenter;
+import com.whitecloak.cleancomponents.mvp.MvpBasePresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;
 
-public abstract class BaseMvrpPresenter<V extends MvpView, R extends MvrpRouter> extends BasePresenter<V> implements MvrpPresenter<V, R> {
+public abstract class MvrpBasePresenter<V extends MvpView, R extends MvrpRouter> extends MvpBasePresenter<V> implements MvrpPresenter<V, R> {
 
     private R mRouter;
 

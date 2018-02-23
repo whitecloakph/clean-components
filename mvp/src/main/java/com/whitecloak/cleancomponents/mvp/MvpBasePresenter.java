@@ -1,6 +1,6 @@
 package com.whitecloak.cleancomponents.mvp;
 
-public abstract class BasePresenter<T extends MvpView> implements MvpPresenter<T> {
+public abstract class MvpBasePresenter<T extends MvpView> implements MvpPresenter<T> {
 
     private T mView;
 
