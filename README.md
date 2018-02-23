@@ -4,7 +4,7 @@ A collection of libraries that help you implement clean architecture.
 
 ## Download
 
-MVP
+MVP (Model View Presenter)
 ```groovy
 compile 'com.whitecloak.cleancomponents:mvp:0.6.0'
 ```
@@ -14,7 +14,7 @@ MVP Activity
 compile 'com.whitecloak.cleancomponents:mvp-activity:0.6.0'
 ```
 
-MVRP Activiry
+MVRP (Model View Presenter Router)
 ```groovy
 compile 'com.whitecloak.cleancomponents:mvrp:0.6.0'
 ```
