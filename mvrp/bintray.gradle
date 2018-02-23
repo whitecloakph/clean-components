@@ -1,0 +1,19 @@
+apply plugin: 'com.novoda.bintray-release'
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+publish {
+    bintrayUser = properties.getProperty('bintray.user')
+    bintrayKey = properties.getProperty('bintray.apikey')
+
+    userOrg = 'whitecloak'
+
+    uploadName = 'com.whitecloak.cleancomponents:mvrp'
+    groupId = 'com.whitecloak.cleancomponents'
+    artifactId = 'mvrp'
+    publishVersion = '0.1.0'
+
+    desc = 'A collection of libraries that help you implement clean architecture.'
+    website = 'https://github.com/whitecloakph/clean-components'
+}

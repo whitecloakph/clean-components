@@ -9,8 +9,9 @@ publish {
 
     userOrg = 'whitecloak'
 
+    uploadName = 'com.whitecloak.cleancomponents:mvp-activity'
     groupId = 'com.whitecloak.cleancomponents'
-    artifactId = 'cleancomponents'
+    artifactId = 'mvp-activity'
     publishVersion = '0.1.0'
 
     desc = 'A collection of libraries that help you implement clean architecture.'
