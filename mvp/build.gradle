@@ -20,4 +20,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-apply from: 'bintray.gradle'
+apply from: '../gradle-jcenter-push.gradle'

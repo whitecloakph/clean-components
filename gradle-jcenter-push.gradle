@@ -9,11 +9,11 @@ publish {
 
     userOrg = 'whitecloak'
 
-    uploadName = 'com.whitecloak.cleancomponents:mvp-activity'
+    uploadName = UPLOAD_NAME
     groupId = 'com.whitecloak.cleancomponents'
-    artifactId = 'mvp-activity'
-    publishVersion = '0.1.0'
+    artifactId = ARTIFACT_ID
+    publishVersion = '0.3.0'
 
     desc = 'A collection of libraries that help you implement clean architecture.'
-    website = 'https://github.com/whitecloakph/clean-components'
+    website = 'https://github.com/whitecloakph/cleancomponents'
 }
