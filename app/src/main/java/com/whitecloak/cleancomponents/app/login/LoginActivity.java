@@ -2,6 +2,7 @@ package com.whitecloak.cleancomponents.app.login;
 
 import android.support.annotation.NonNull;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.whitecloak.cleancomponents.R;
 import com.whitecloak.cleancomponents.app.common.base.BaseActivity;
@@ -9,6 +10,7 @@ import com.whitecloak.cleancomponents.app.common.base.BaseActivity;
 import javax.inject.Inject;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> implements LoginView {
 
@@ -49,5 +51,10 @@ public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> imple
     @Override
     protected void loadContent() {
 
+    }
+
+    @OnClick(R.id.button_login)
+    public void onClickLogin() {
+        Toast.makeText(this, "Not yet working", Toast.LENGTH_SHORT).show();
     }
 }
