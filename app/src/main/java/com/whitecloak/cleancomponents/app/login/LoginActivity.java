@@ -2,7 +2,6 @@ package com.whitecloak.cleancomponents.app.login;
 
 import android.support.annotation.NonNull;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.whitecloak.cleancomponents.R;
 import com.whitecloak.cleancomponents.app.common.base.BaseActivity;
@@ -55,6 +54,8 @@ public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> imple
 
     @OnClick(R.id.button_login)
     public void onClickLogin() {
-        Toast.makeText(this, "Not yet working", Toast.LENGTH_SHORT).show();
+        String username = usernameView.getText().toString();
+        String password = passwordView.getText().toString();
+        presenter.login(username, password);
     }
 }
