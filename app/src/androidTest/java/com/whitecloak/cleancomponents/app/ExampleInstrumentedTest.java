@@ -1,4 +1,4 @@
-package com.whitecloak.cleancomponents;
+package com.whitecloak.cleancomponents.app;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
