@@ -5,13 +5,13 @@ import android.view.View;
 
 import com.whitecloak.cleancomponents.mvp.MvpPresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;
-import com.whitecloak.mvpfragment.MvpFragment;
+import com.whitecloak.mvpfragment.MvpLazyFragment;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import dagger.android.support.AndroidSupportInjection;
 
-public abstract class BaseFragment<V extends MvpView, P extends MvpPresenter<V>> extends MvpFragment<V, P> {
+public abstract class BaseMvpLazyFragment<V extends MvpView, P extends MvpPresenter<V>> extends MvpLazyFragment<V, P> {
 
     private Unbinder unbinder;
 

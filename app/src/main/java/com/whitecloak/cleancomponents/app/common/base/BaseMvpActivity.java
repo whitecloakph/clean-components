@@ -7,7 +7,7 @@ import com.whitecloak.cleancomponents.mvpactivity.MvpActivity;
 import butterknife.ButterKnife;
 import dagger.android.AndroidInjection;
 
-public abstract class BaseActivity<V extends MvpView, P extends MvpPresenter<V>> extends MvpActivity<V, P> {
+public abstract class BaseMvpActivity<V extends MvpView, P extends MvpPresenter<V>> extends MvpActivity<V, P> {
 
     @Override
     protected void preSetupDepdencies() {

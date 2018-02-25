@@ -4,14 +4,14 @@ import android.support.annotation.NonNull;
 import android.widget.TextView;
 
 import com.whitecloak.cleancomponents.R;
-import com.whitecloak.cleancomponents.app.common.base.BaseActivity;
+import com.whitecloak.cleancomponents.app.common.base.BaseMvpActivity;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> implements LoginView {
+public class LoginActivity extends BaseMvpActivity<LoginView, LoginPresenter> implements LoginView {
 
     @BindView(R.id.text_username)
     TextView usernameView;
