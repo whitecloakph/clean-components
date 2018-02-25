@@ -16,6 +16,7 @@ public abstract class MvrpActivity<V extends MvpView, R extends MvrpRouter, P ex
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        preSetupDependencies();
         super.onCreate(savedInstanceState);
         setupDependencies();
 
@@ -24,6 +25,7 @@ public abstract class MvrpActivity<V extends MvpView, R extends MvrpRouter, P ex
         mPresenter.attachRouter(getMvpRouter());
 
         setContentView(getLayoutRes());
+        preSetupViews();
         setupViews();
 
         loadContent();
@@ -48,7 +50,17 @@ public abstract class MvrpActivity<V extends MvpView, R extends MvrpRouter, P ex
     @NonNull
     protected abstract P getMvpPresenter();
 
+    /**
+     * Setup 3rd party libraries such as Dagger
+     */
+    protected abstract void preSetupDependencies();
+
     protected abstract void setupDependencies();
+
+    /**
+     * Setup 3rd party libraries such as ButterKnife or DataBinding
+     */
+    protected abstract void preSetupViews();
 
     protected abstract void setupViews();
 
