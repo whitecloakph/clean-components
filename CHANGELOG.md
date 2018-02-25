@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.7.0] - 2018-02-23
+### Changed
+- Add mvp fragment
+
 ## [0.6.0] - 2018-02-23
 ### Changed
 - Rename base presenter
