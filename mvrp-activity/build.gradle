@@ -28,4 +28,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
 
-apply from: '../gradle-jcenter-push.gradle'
+apply from: '../gradle-bintray-push.gradle'
