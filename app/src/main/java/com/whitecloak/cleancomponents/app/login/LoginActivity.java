@@ -1,5 +1,7 @@
 package com.whitecloak.cleancomponents.app.login;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.widget.TextView;
 
@@ -21,6 +23,10 @@ public class LoginActivity extends BaseMvpActivity<LoginView, LoginPresenter> im
 
     @Inject
     LoginPresenter presenter;
+
+    public static Intent getStartIntent(@NonNull Context context) {
+        return new Intent(context, LoginActivity.class);
+    }
 
     @Override
     protected int getLayoutRes() {
