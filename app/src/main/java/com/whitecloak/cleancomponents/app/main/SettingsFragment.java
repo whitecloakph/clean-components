@@ -5,11 +5,11 @@ import android.support.annotation.NonNull;
 import android.widget.Toast;
 
 import com.whitecloak.cleancomponents.R;
-import com.whitecloak.cleancomponents.app.common.base.BaseMvpLazyFragment;
+import com.whitecloak.cleancomponents.app.common.base.BaseMvrpLazyFragment;
 
 import javax.inject.Inject;
 
-public class SettingsFragment extends BaseMvpLazyFragment<SettingsView, SettingsPresenter> implements SettingsView {
+public class SettingsFragment extends BaseMvrpLazyFragment<SettingsView, SettingsRouter, SettingsPresenter> implements SettingsView {
 
     @Inject
     SettingsPresenter presenter;
@@ -38,6 +38,12 @@ public class SettingsFragment extends BaseMvpLazyFragment<SettingsView, Settings
     @Override
     protected SettingsView getMvpView() {
         return this;
+    }
+
+    @NonNull
+    @Override
+    protected SettingsRouter getMvpRouter() {
+        return new SettingsRouter(getActivity());
     }
 
     @Override

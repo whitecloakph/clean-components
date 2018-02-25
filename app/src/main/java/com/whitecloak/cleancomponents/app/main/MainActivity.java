@@ -37,6 +37,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         ButterKnife.bind(this);
 
         viewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager()));
+        viewPager.setOffscreenPageLimit(4);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
     }
@@ -53,8 +54,11 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
             case R.id.action_store:
                 viewPager.setCurrentItem(1);
                 break;
-            case R.id.action_settings:
+            case R.id.action_subscription:
                 viewPager.setCurrentItem(2);
+                break;
+            case R.id.action_settings:
+                viewPager.setCurrentItem(3);
                 break;
         }
         return true;
@@ -68,7 +72,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
 
         @Override
         public int getCount() {
-            return 3;
+            return 4;
         }
 
         @Override
@@ -83,6 +87,9 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
                     fragment = StoreFragment.newInstance();
                     break;
                 case 2:
+                    fragment = SubscriptionsFragment.newInstance();
+                    break;
+                case 3:
                     fragment = SettingsFragment.newInstance();
                     break;
             }

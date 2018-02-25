@@ -9,6 +9,8 @@ import com.whitecloak.cleancomponents.app.main.SettingsFragment;
 import com.whitecloak.cleancomponents.app.main.SettingsModule;
 import com.whitecloak.cleancomponents.app.main.StoreFragment;
 import com.whitecloak.cleancomponents.app.main.StoreModule;
+import com.whitecloak.cleancomponents.app.main.SubscriptionsFragment;
+import com.whitecloak.cleancomponents.app.main.SubscriptionsModule;
 import com.whitecloak.cleancomponents.app.register.RegisterActivity;
 import com.whitecloak.cleancomponents.app.register.RegisterModule;
 
@@ -32,6 +34,9 @@ public abstract class ActivityBindingModule {
 
     @ContributesAndroidInjector(modules = StoreModule.class)
     abstract StoreFragment storeFragment();
+
+    @ContributesAndroidInjector(modules = SubscriptionsModule.class)
+    abstract SubscriptionsFragment subscriptionsFragment();
 
     @ContributesAndroidInjector(modules = SettingsModule.class)
     abstract SettingsFragment settingsFragment();

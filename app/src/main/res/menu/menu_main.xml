@@ -10,6 +10,10 @@
         android:icon="@drawable/ic_store_black_24dp"
         android:title="Store" />
     <item
+        android:id="@+id/action_subscription"
+        android:icon="@drawable/ic_subscriptions_black_24dp"
+        android:title="Subscriptions" />
+    <item
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_settings_black_24dp"
         android:title="Settings" />
