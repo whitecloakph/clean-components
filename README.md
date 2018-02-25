@@ -6,22 +6,32 @@ A collection of libraries that help you implement clean architecture.
 
 MVP (Model View Presenter)
 ```groovy
-compile 'com.whitecloak.cleancomponents:mvp:0.6.0'
+compile 'com.whitecloak.cleancomponents:mvp:0.8.0'
 ```
 
 MVP Activity
 ```groovy
-compile 'com.whitecloak.cleancomponents:mvp-activity:0.6.0'
+compile 'com.whitecloak.cleancomponents:mvp-activity:0.8.0'
+```
+
+MVP Fragment
+```groovy
+compile 'com.whitecloak.cleancomponents:mvp-fragment:0.8.0'
 ```
 
 MVRP (Model View Presenter Router)
 ```groovy
-compile 'com.whitecloak.cleancomponents:mvrp:0.6.0'
+compile 'com.whitecloak.cleancomponents:mvrp:0.8.0'
 ```
 
 MVRP Activity
 ```groovy
-compile 'com.whitecloak.cleancomponents:mvrp-activity:0.6.0'
+compile 'com.whitecloak.cleancomponents:mvrp-activity:0.8.0'
+```
+
+MVRP Fragment
+```groovy
+compile 'com.whitecloak.cleancomponents:mvrp-fragment:0.8.0'
 ```
 
 ## License
