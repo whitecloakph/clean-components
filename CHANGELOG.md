@@ -1,6 +1,10 @@
 # Changelog
 
-## [0.7.0] - 2018-02-23
+## [0.8.0] - 2018-02-25
+### Changed
+- Add mvrp fragment
+
+## [0.7.0] - 2018-02-25
 ### Changed
 - Add mvp fragment
 
