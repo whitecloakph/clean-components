@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.whitecloak.cleancomponents.R;
 import com.whitecloak.cleancomponents.app.common.base.BaseMvpActivity;
+import com.whitecloak.cleancomponents.app.main.MainActivity;
 
 import javax.inject.Inject;
 
@@ -56,6 +57,13 @@ public class LoginActivity extends BaseMvpActivity<LoginView, LoginPresenter> im
     @Override
     protected void loadContent() {
 
+    }
+
+    @Override
+    public void showMain() {
+        Intent intent = MainActivity.getStartIntent(this);
+        startActivity(intent);
+        finish();
     }
 
     @OnClick(R.id.button_login)

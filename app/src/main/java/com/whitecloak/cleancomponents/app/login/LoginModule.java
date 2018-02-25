@@ -7,7 +7,7 @@ import dagger.Provides;
 public class LoginModule {
 
     @Provides
-    LoginPresenter providePresenter() {
+    LoginPresenter presenter() {
         return new LoginPresenter();
     }
 }

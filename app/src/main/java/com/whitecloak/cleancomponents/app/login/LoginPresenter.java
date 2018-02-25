@@ -10,6 +10,6 @@ public class LoginPresenter extends MvpBasePresenter<LoginView> {
     }
 
     public void login(@NonNull String username, @NonNull String password) {
-        // TODO
+        getView().showMain();
     }
 }

@@ -7,7 +7,7 @@ import dagger.Provides;
 public class RegisterModule {
 
     @Provides
-    RegisterPresenter providePresenter() {
+    RegisterPresenter presenter() {
         return new RegisterPresenter();
     }
 }

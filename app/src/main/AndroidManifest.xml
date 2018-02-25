@@ -21,6 +21,10 @@
         </activity>
 
         <activity
+            android:name=".app.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
             android:name=".app.login.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
