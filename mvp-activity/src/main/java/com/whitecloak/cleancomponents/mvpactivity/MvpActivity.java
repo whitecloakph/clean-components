@@ -15,7 +15,7 @@ public abstract class MvpActivity<V extends MvpView, P extends MvpPresenter<V>> 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        preSetupDepdencies();
+        preSetupDependencies();
         super.onCreate(savedInstanceState);
         setupDependencies();
 
@@ -47,7 +47,7 @@ public abstract class MvpActivity<V extends MvpView, P extends MvpPresenter<V>> 
     /**
      * Setup 3rd party libraries such as Dagger
      */
-    protected abstract void preSetupDepdencies();
+    protected abstract void preSetupDependencies();
 
     protected abstract void setupDependencies();
 

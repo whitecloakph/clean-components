@@ -26,7 +26,7 @@ public abstract class BaseMvpActivity<V extends MvpView, P extends MvpPresenter<
     }
 
     @Override
-    protected void preSetupDepdencies() {
+    protected void preSetupDependencies() {
         AndroidInjection.inject(this);
     }
 
