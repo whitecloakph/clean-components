@@ -25,7 +25,7 @@ android {
 
 dependencies {
     def junit = "junit:junit:4.12"
-    def mockito = "org.mockito:mockito-core:2.15.1"
+    def mockito = "org.mockito:mockito-core:2.7.17"
 
     implementation project(':mvp')
     implementation project(':mvp-activity')
@@ -53,7 +53,7 @@ dependencies {
 
     androidTestImplementation junit
     androidTestImplementation mockito
-    androidTestImplementation "org.mockito:mockito-android:2.15.1"
+    androidTestImplementation "org.mockito:mockito-android:2.7.17"
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
