@@ -1,6 +1,6 @@
 package com.whitecloak.cleancomponents.app.common.base;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 
 import com.whitecloak.cleancomponents.mvp.MvpPresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;
@@ -12,17 +12,17 @@ import butterknife.ButterKnife;
 import dagger.android.AndroidInjection;
 import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
-import dagger.android.HasFragmentInjector;
+import dagger.android.support.HasSupportFragmentInjector;
 
 public abstract class BaseMvpActivity<V extends MvpView, P extends MvpPresenter<V>> extends MvpActivity<V, P> implements
-        HasFragmentInjector {
+        HasSupportFragmentInjector {
 
     @Inject
-    DispatchingAndroidInjector<Fragment> fragmentInjector;
+    DispatchingAndroidInjector<Fragment> supportFragmentInjector;
 
     @Override
-    public AndroidInjector<Fragment> fragmentInjector() {
-        return fragmentInjector;
+    public AndroidInjector<Fragment> supportFragmentInjector() {
+        return supportFragmentInjector;
     }
 
     @Override

@@ -15,11 +15,11 @@ import dagger.android.support.HasSupportFragmentInjector;
 public class BaseActivity extends AppCompatActivity implements HasSupportFragmentInjector {
 
     @Inject
-    DispatchingAndroidInjector<Fragment> fragmentInjector;
+    DispatchingAndroidInjector<Fragment> supportFragmentInjector;
 
     @Override
     public AndroidInjector<Fragment> supportFragmentInjector() {
-        return fragmentInjector;
+        return supportFragmentInjector;
     }
 
     @Override
