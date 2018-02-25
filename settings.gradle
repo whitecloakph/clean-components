@@ -1,4 +1,4 @@
-include ':app', ':mvrp-fragment'
+include ':app'
 
 include ':mvp'
 include ':mvp-activity'
@@ -6,3 +6,4 @@ include ':mvp-fragment'
 
 include ':mvrp'
 include ':mvrp-activity'
+include ':mvrp-fragment'
