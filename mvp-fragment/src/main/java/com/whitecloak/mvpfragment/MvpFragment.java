@@ -67,6 +67,7 @@ public abstract class MvpFragment<V extends MvpView, P extends MvpPresenter<V>> 
 
     /**
      * Setup 3rd party libraries such as ButterKnife or DataBinding
+     * @param view View
      */
     protected abstract void preSetupViews(@NonNull View view);
 
