@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvp-activity" />
+            <option value="$PROJECT_DIR$/mvp-fragment" />
             <option value="$PROJECT_DIR$/mvrp" />
             <option value="$PROJECT_DIR$/mvrp-activity" />
           </set>

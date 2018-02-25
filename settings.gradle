@@ -1,1 +1,8 @@
-include ':app', ':mvp', ':mvrp', ':mvp-activity', ':mvrp-activity'
+include ':app'
+
+include ':mvp'
+include ':mvp-activity'
+include ':mvp-fragment'
+
+include ':mvrp'
+include ':mvrp-activity'
