@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import com.whitecloak.cleancomponents.mvp.MvpView;
 import com.whitecloak.cleancomponents.mvrp.MvrpPresenter;
 import com.whitecloak.cleancomponents.mvrp.MvrpRouter;
-import com.whitecloak.mvrpactivity.MvrpActivity;
+import com.whitecloak.cleancomponents.mvrpactivity.MvrpActivity;
 
 import javax.inject.Inject;
 

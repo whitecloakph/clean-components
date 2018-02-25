@@ -1,4 +1,4 @@
-package com.whitecloak.mvpfragment;
+package com.whitecloak.cleancomponents.mvpfragment;
 
 import com.whitecloak.cleancomponents.mvp.MvpPresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;

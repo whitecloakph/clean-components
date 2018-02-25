@@ -1,4 +1,4 @@
-package com.whitecloak.mvrpactivity;
+package com.whitecloak.cleancomponents.mvpfragment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.whitecloak.mvrpactivity.test", appContext.getPackageName());
+        assertEquals("com.whitecloak.mvp_fragment.test", appContext.getPackageName());
     }
 }

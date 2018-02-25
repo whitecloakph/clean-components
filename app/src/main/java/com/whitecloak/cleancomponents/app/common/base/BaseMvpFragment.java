@@ -5,7 +5,7 @@ import android.view.View;
 
 import com.whitecloak.cleancomponents.mvp.MvpPresenter;
 import com.whitecloak.cleancomponents.mvp.MvpView;
-import com.whitecloak.mvpfragment.MvpFragment;
+import com.whitecloak.cleancomponents.mvpfragment.MvpFragment;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

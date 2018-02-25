@@ -2,13 +2,14 @@ package com.whitecloak.cleancomponents.app.main;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.widget.Toast;
 
 import com.whitecloak.cleancomponents.R;
-import com.whitecloak.cleancomponents.app.common.base.BaseMvpFragment;
+import com.whitecloak.cleancomponents.app.common.base.BaseMvpLazyFragment;
 
 import javax.inject.Inject;
 
-public class StoreFragment extends BaseMvpFragment<StoreView, StorePresenter> implements StoreView {
+public class StoreFragment extends BaseMvpLazyFragment<StoreView, StorePresenter> implements StoreView {
 
     @Inject
     StorePresenter presenter;
@@ -52,5 +53,10 @@ public class StoreFragment extends BaseMvpFragment<StoreView, StorePresenter> im
     @Override
     protected void loadContent() {
 
+    }
+
+    @Override
+    public void lazyLoadContent() {
+        Toast.makeText(getActivity(), "Lazy load content", Toast.LENGTH_SHORT).show();
     }
 }

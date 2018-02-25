@@ -1,4 +1,4 @@
-package com.whitecloak.mvrpactivity;
+package com.whitecloak.cleancomponents.mvrpactivity;
 
 import org.junit.Test;
 

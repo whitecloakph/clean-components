@@ -1,4 +1,4 @@
-package com.whitecloak.mvpfragment;
+package com.whitecloak.cleancomponents.mvpfragment;
 
 import android.content.Context;
 import android.os.Bundle;
